@@ -1,0 +1,22 @@
+{
+    "name": "satmaxt/imagebam",
+    "description": "imagebam API",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Satria Aji Putra",
+            "email": "satriamaxt@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ImageBamAPI\\": "src/ImageBamAPI/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {},
+    "require-dev": {
+        "symfony/var-dumper": "^5.0@dev"
+    }
+}
